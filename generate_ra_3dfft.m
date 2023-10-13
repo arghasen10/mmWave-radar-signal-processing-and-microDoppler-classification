@@ -15,14 +15,14 @@ params = get_params_value();
 c = params.c; % Speed of light in air (m/s)
 fc = params.fc; % Center frequency (Hz)
 lambda = params.lambda;
-Rx = params.Rx;
-Tx = params.Tx;
+Rx = params.Rx;                 %
+Tx = params.Tx;                 %2
 
 % configuration parameters
 Fs = params.Fs;
 sweepSlope = params.sweepSlope;
-samples = params.samples;
-loop = params.loop;
+samples = params.samples;       %128
+loop = params.loop;             %255
 
 Tc = params.Tc; % us 
 fft_Rang = params.fft_Rang;
